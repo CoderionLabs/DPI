@@ -163,12 +163,12 @@ void display_ident(Flow *f, IdentFlow *ident)
 			ident->out.bytes, ident->in.bytes);
 
 
-	/* basic statistics */
-	/*
+	cout << ¨Printing the basic staticstics" << endl;
 	printf("%s,%d,%" PRIu64 ",%" PRIu64 ",%" PRIu64 ",%" PRIu64,
 		proto->name, f->id.get_protocol(),
 		ident->out.pkts, ident->out.bytes, ident->in.pkts, ident->in.bytes);
-	*/
+	cout << endl << endl;
+	
 
 	/* print packet length statistics */
 	is = &ident->out;
